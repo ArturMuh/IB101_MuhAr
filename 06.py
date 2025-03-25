@@ -1,0 +1,6 @@
+slovo1 = input("Введите 1 слово:")
+slovo2 = input("Введите 2 слово:")
+slovo3 = input("Введите 3 слово:")
+print(slovo1)
+print(slovo2)
+print(slovo3)
