@@ -1,0 +1,1 @@
+print('\n'.join([str(x) for x in [int(i) ** 2 for i in input().split() if int(i) % 2] if x % 10 != 9]))
