@@ -5,4 +5,4 @@ for i in range(n):
 search = input()
 for text in data:
 	if search in text:
-	print(text)
+	 print(text)
