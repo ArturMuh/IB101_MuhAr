@@ -1,8 +1,11 @@
-result = []
-def print_without_duplicates(message):
-    if message not in result:
-        print(message)
-        result.append(message)
+last_message = ''
+
+def print_without_duplicates(message:str):
+    global last_message
+    if last_message == message:
+        return
+    print(message)
+    last_message = message
 
 
 print_without_duplicates("Привет")
